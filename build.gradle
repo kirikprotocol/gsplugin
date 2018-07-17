@@ -3,5 +3,14 @@ plugins {
 }
 
 golang {
-    packagePath = 'github.com/kuruhuru/gsplugin' // go import path of project to be built, NOT local file system path!
+    packagePath = 'github.com/kirikprotocol/gsplugin' // go import path of project to be built, NOT local file system path!
+}
+
+build {
+    // Cross-compile output
+    targetPlatform = ['windows-amd64', 'linux-amd64']
+
+    // Output location, can be relative path (to project root) or absolute path
+    // The ${} placeholder will be rendered in cross-compile
+    outputLocation = './.gogradle/${GOOS}_${GOARCH}_${PROJECT_NAME}${GOEXE}'
 }
