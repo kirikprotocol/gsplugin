@@ -1,0 +1,68 @@
+Release update - ‎March ‎19, ‎2018
+New: 
+ - Now system can return last entry using /getLast/
+ - System can redirect to location of callback paramter
+Improvements:
+ - Added few fields in knownKeys in cfg.json
+
+Release update - April 8, 2018
+New:
+ - Language columns support:
+ 	1. Language column format <name>_<lang>
+	1.1 Lang code format: 
+		en
+		ru
+		jp
+			etc. (as lang parameter value)
+ - Not writting default called pages to table(like page123 etc.) 
+Improvements:
+ - Fixed table header check
+ - Fixed table filling(now empty cells are filling by <UNKNOWN>)
+ - Fixed critical panic bug
+
+Release update - April 14, 2018
+Improvements:
+ - Fixed "<UNKNOWN>" feature
+ - Fixed table filling
+
+Release update - April 16, 2018
+Improvements:
+ - Fixed getLast bug
+ - Fixed getLast callback bug
+
+Release update - April 17, 2018
+Improvements:
+ - Fixed getLast 301 redirect bug
+
+Release update - May 24, 2018
+New: 
+ - Push to telegram and email(stored in DispatchPhoneList list in google sheet)
+ 	to push need to pass dispatch=1
+ 	to push on email pass sendEmail=1
+Imporvements:
+ - "Protection from the fool"
+
+Release update - May 28, 2018
+Improvements:
+ - Fixed mark calculation.
+
+Release update - June 6, 2018
+Improvements:
+ - Fixed bot email response
+ - Added to fields in translation table: mailPostfix, mailSubject
+
+Release update - June 22, 2018
+Improvements:
+ - Fixed get last bug(get last not worked without phone number)
+
+Release update - July 5, 2018
+Improvements:
+ - Fixed push error return.
+ - Not returning values of notpushable* buttons
+ - Added getLast feature: search for user_id and wnumber
+
+Release update - July 10, 2018
+Improvements:
+ - Fixed "0" formula overwrite bug.
+New: 
+ - GetLast now can return value from specified list (tableTitle param)

@@ -1,0 +1,6 @@
+<page version="2.0">
+    <div>%s</div>
+    <navigation>
+        <link pageId="">/start</link>
+    </navigation>
+</page>

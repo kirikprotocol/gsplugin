@@ -1,0 +1,14 @@
+{
+  "serverRoot": "/",
+  "port": "8800",
+  "unmarkableXML": "./pages/response.xml",
+  "markableXML": "./pages/markableResponse.xml",
+  "errorXML": "./pages/error.xml",
+  "lastEntryXML": "./pages/lastEntryResponse.xml",
+  "getLastEntryPrefix": "Latest user: ",
+  "logPath": "./logs/bot.log",
+  "pathToGoogleKeyJson": "D:\\passwords\\google_key\\MiniappsTesterBot-e3f1e1953eda.json",
+  "googleUsername": "spreadsheetplugin@gmail.com",
+  "googlePassword": "tut5jul7:spreadsheetmail",
+  "knownKeys": ["sendEmail","dispatch", "userTableTitle","ref_sid", "event.id", "event.order", "subscriber", "abonent", "protocol", "user_id", "service", "event.text", "event.referer", "event.type", "event", "lang", "serviceId", "wnumber", "event.type", "spreadsheetId", "evaluable", "callback"]
+}

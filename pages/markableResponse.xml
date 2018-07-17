@@ -1,0 +1,6 @@
+<page version="2.0">
+    <div>Thanks for participating! You get %s points!</div>
+    <navigation>
+        <link pageId="">/start</link>
+    </navigation>
+</page>
